@@ -1,0 +1,5 @@
+# Enter your aws rds db instance ip here
+mysql_host: 'terraform-20210613173026046300000001.cjaxkm4xt81b.ap-south-1.rds.amazonaws.com'
+mysql_user: 'mihir' # username  
+mysql_password: 'mihirredhat' 
+mysql_db: 'flaskdb'  
