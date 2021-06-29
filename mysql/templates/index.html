@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<link type="text/css" href="style.css"/>
+<script src="script.js"></script>
+<style>
+
+body {
+  
+   background-color:#43cea2; 
+}
+</style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Cloud APP</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="users">User</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+       
+      </ul>
+      
+    </div>
+  </nav>
+
+   
+      <div class="container">
+      <form method="POST" action="">
+        <h2 align="center">Fill Details</h2>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+           <b> <label for="inputEmail4">Name</label></b>
+            <input type="name" name="name" class="form-control" id="inputEmail4" placeholder="Enter the name">
+          </div>
+          <div class="form-group col-md-6">
+           <b> <label for="inputPassword4">Email</label></b>
+            <input type="email" name="email" class="form-control" id="inputPassword4" placeholder="Enter the email">
+          </div>
+        </div>
+        <div class="form-group">
+          <b><label for="inputAddress">Password</label></b>
+          <input type="password" name="password" class="form-control" id="inputAddress" placeholder="Enter the password">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Address</label>
+          <input type="text" name="address" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+          
+          <div class="form-group col-md-4">
+            <label for="inputState">Country</label>
+           
+            <select id="inputState" name="country" class="form-control">
+              <option value="australia">Australia</option>
+              <option value="india">India</option>
+              <option value="canada">Canada</option>
+              <option value="albania">Albania</option>
+              <option value="usa">USA</option>
+              <option value="belgium">Belgium</option>
+              <option value="greece">Greece</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputState">Gender</label>
+           
+            <select id="inputState" name="gender" class="form-control">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              
+            </select>
+          </div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      </div>
+
+</body>
+</html>
